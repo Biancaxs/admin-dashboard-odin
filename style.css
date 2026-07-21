@@ -110,7 +110,7 @@ main h2{
     gap: 30px;
 }
 
-.text-content{
+.projects-text-content{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -129,6 +129,28 @@ main h2{
 .announcements{
     grid-row: 1 / 2;
     grid-column: 2 / 3;
+
+    padding: 20px 40px 20px 0px;
+}
+
+.announcements-grid{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+    border-radius: 8px;
+    gap: 40px;
+}
+
+.announcements p{
+    font-size: 15px;
+}
+
+.announcements-text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .trending{
